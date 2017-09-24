@@ -1,0 +1,102 @@
+.section_two{
+  margin-top: 50px;
+  background-color: $white-color;
+  color: $gray-color;
+  font-family: Verdana;
+  @media screen and (max-width: 1350px) {
+    margin-top: 0;
+  }
+  .wrapper {
+    @extend %wrapper;
+    @extend %flex;
+    .info {
+      @extend %info;
+      .h3 {
+        @extend %h3;
+      }
+      .p {
+        @extend %p;
+      }
+    }
+    .ul {
+      @extend %flex;
+      justify-content: space-around;
+      .li {
+        text-align: center;
+        margin-left: 34px;
+        margin-right: 34px;
+        margin-bottom: 30px;
+        @media screen and (max-width: 760px) {
+          flex-basis: 50%;
+        }
+        .img {
+        }
+        .h5 {
+          max-width: 200px;
+          margin: 0 auto;
+          line-height: 24px;
+          font-weight: bold;
+          color: #343434;
+          padding-top: 9px;
+          padding-bottom: 5px;
+          position: relative;
+          left: -1px;
+          @media screen and (max-width: 393px) {
+            font-size: 13px;
+          }
+        }
+        .line {
+          background-color: $red-color;
+          height: 2px;
+          max-width: 60px;
+          margin: 0 auto;
+        }
+        .p {
+          max-width: 217px;
+          margin: 0 auto;
+          font-size: $p-font-size;
+          line-height: 24px;
+          padding-top: 12px;
+          @media screen and (max-width: 393px) {
+            font-size: 12px;
+          }
+        }
+        &:first-child {
+          position: relative;
+          left: -7px;
+        }
+        &:nth-child(2) {
+          position: relative;
+          left: -3px;
+        }
+        &:nth-child(3) {
+          position: relative;
+          left: 2px;
+        }
+        &:nth-child(4) {
+          position: relative;
+          left: 6px;
+        }
+        &:nth-child(5) {
+          position: relative;
+          left: -8px;
+        }
+        &:nth-child(6) {
+          position: relative;
+          left: -3px;
+        }
+        &:nth-child(7) {
+          position: relative;
+          left: 2px;
+        }
+        &:nth-child(8) {
+          position: relative;
+          left: 6px;
+        }
+        @media screen and (max-width: 760px) {
+          flex-basis: 50%;
+        }
+      }
+    }
+  }
+}

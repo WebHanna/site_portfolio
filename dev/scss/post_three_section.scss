@@ -1,0 +1,143 @@
+.three_section{
+  font-size: 14px;
+  font-family: Verdana;
+  .wrapper{
+    @extend %wrapper;
+    .comment{
+      padding-left: 4.3%;
+      width: 95.7%;
+      margin-bottom: 36px;
+      .img{
+        display: inline-block;
+        float: left;
+      }
+      .text{
+        display: inline-block;
+        float: left;
+        width: 90%;
+        margin-right: 4%;
+        position: relative;
+        top: -3px;
+        padding-left: 14px;
+        @media screen and (max-width: 1260px) {
+          width: 85%;
+        }
+        @media screen and (max-width: 730px) {
+          width: 80%;
+        }
+        @media screen and (max-width: 630px) {
+          font-size: 12px;
+          line-height: 22px;
+        }
+        @media screen and (max-width: 550px) {
+          width: 75%;
+        }
+        @media screen and (max-width: 390px) {
+          width: 70%;
+        }
+        @media screen and (max-width: 315px) {
+          width: 65%;
+        }
+        .h6 {
+          font-weight: bold;
+          padding-bottom: 15px;
+        }
+        .p {
+          color: $gray-color;
+          line-height: 20px;
+          letter-spacing: 0;
+        }
+      }
+    }
+    .comment_answer1{
+      padding-left: 9.5%;
+      width: 90.5%;
+      margin-bottom: 44px;
+      .img{
+        display: inline-block;
+        float: left;
+      }
+      .text{
+        display: inline-block;
+        float: left;
+        width: 90%;
+        position: relative;
+        top: -3px;
+        padding-left: 15px;
+        @media screen and (max-width: 1260px) {
+          width: 85%;
+        }
+        @media screen and (max-width: 730px) {
+          width: 80%;
+        }
+        @media screen and (max-width: 630px) {
+          font-size: 12px;
+          line-height: 22px;
+        }
+        @media screen and (max-width: 550px) {
+          width: 75%;
+        }
+        @media screen and (max-width: 390px) {
+          width: 70%;
+        }
+        @media screen and (max-width: 315px) {
+          width: 65%;
+        }
+        .h6 {
+          font-weight: bold;
+          padding-bottom: 15px;
+        }
+        .p {
+          color: $gray-color;
+          line-height: 20px;
+          letter-spacing: 0;
+        }
+      }
+    }
+    .comment_answer2{
+      padding-left: 15%;
+      width: 85%;
+      margin-bottom: 36px;
+      .img{
+        display: inline-block;
+        float: left;
+      }
+      .text{
+        display: inline-block;
+        float: left;
+        width: 89%;
+        position: relative;
+        top: -3px;
+        padding-left: 15px;
+        @media screen and (max-width: 1260px) {
+          width: 85%;
+        }
+        @media screen and (max-width: 730px) {
+          width: 80%;
+        }
+        @media screen and (max-width: 630px) {
+          font-size: 12px;
+          line-height: 22px;
+        }
+        @media screen and (max-width: 550px) {
+          width: 75%;
+        }
+        @media screen and (max-width: 390px) {
+          width: 70%;
+        }
+        @media screen and (max-width: 315px) {
+          width: 65%;
+        }
+        .h6 {
+          font-weight: bold;
+          padding-bottom: 15px;
+        }
+        .p {
+          color: $gray-color;
+          line-height: 20px;
+          letter-spacing: 0;
+        }
+      }
+    }
+  }
+}

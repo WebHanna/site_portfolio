@@ -1,0 +1,156 @@
+//colours
+$red-color: #fe504f;
+$white-color: #ffffff;
+$black-color: #343434;
+$gray-color: #adadad;
+
+
+//font-size
+$menu-font-size: 14px;
+$h1-font-size: 60px;
+$text-font-size: 20px;
+$h5-font-size: 60px;
+$p-font-size: 14px;
+$p-text-font-size: 16px;
+$footer-text-font-size:12px;
+$h4-font-size: 24px;
+$h3-font-size: 20px;
+$h2-font-size: 34px;
+
+%logo {
+  color: $red-color;
+  font-size:32px;
+  font-family: Verdana;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -2px;
+  @media screen and (max-width: 940px) {
+    font-size:30px;
+  }
+  @media screen and (max-width: 460px) {
+    font-size:27px;
+  }
+  @media screen and (max-width: 393px) {
+    font-size:25px;
+  }
+}
+%button {
+  font-family: Verdana;
+  font-size: 20px;
+  background-color: $red-color;
+  color: $white-color;
+  text-align: center;
+  width: 214px;
+  height: 64px;
+  border-radius: 45px;
+  border: 0px;
+  outline: none;
+
+  @media screen and (max-width: 940px) {
+    font-size: 16px;
+    width:175px;
+    height:57px;
+  }
+  @media screen and (max-width: 760px) {
+    font-size: 16px;
+    width:158px;
+    height:53px;
+  }
+  @media screen and (max-width: 640px) {
+    font-size: 12px;
+    width: 120px;
+    height: 40px;
+  }
+  @media screen and (max-width: 393px) {
+    font-size: 10px;
+    width: 110px;
+    height: 34px;
+  }
+  @media screen and (max-width: 348px) {
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+  }
+}
+%wrapper {
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+
+  @media screen and (max-width: 1350px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  @media screen and (max-width: 500px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+%flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+////info start
+%info {
+  max-width: 77%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4px;
+  @media screen and (max-width: 800px) {
+    max-width: 90%;
+  }
+}
+%h3 {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $black-color;
+  @media screen and (max-width: 765px) {
+    font-size: 22px;
+  }
+  @media screen and (max-width: 393px) {
+    font-size: 20px;
+  }
+}
+%p {
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  padding-top: 23px;
+  padding-bottom: 61px;
+
+  @media screen and (max-width: 756px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 393px) {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+////info end
+
+%h4{
+  font-size:20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $red-color;
+  @media screen and (max-width: 765px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 393px) {
+    font-size: 16px;
+  }
+
+
+}
+%line {
+  height: 2px;
+  width: 50px;
+  background-color: $red-color;
+  margin-top: 14px;
+  margin-bottom: 22px;
+}

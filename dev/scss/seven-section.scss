@@ -1,0 +1,225 @@
+.section_seven {
+  background: url("../images/footer.png") center no-repeat;
+  background-size: cover;
+  height: 714px;
+  color: $white-color;
+  font-family: Verdana;
+  padding-top: 95px;
+  @media screen and (max-width: 840px) {
+    height: 530px;
+  }
+  @media screen and (max-width: 640px) {
+    height: 530px;
+    padding-top: 70px;
+  }
+  @media screen and (max-width: 440px) {
+    height: 350px;
+  }
+  .wrapper {
+    @extend %wrapper;
+    .left {
+      display: inline-block;
+      float: left;
+      width: 50%;
+      @media screen and (max-width: 830px) {
+        width: 100%;
+      }
+      .logo {
+        @extend %logo;
+      }
+      .p {
+        font-size: $p-font-size;
+        line-height: 20px;
+        margin-top: 29px;
+        max-width: 87%;
+        @media screen and (max-width: 900px) {
+          //width: 100%;
+          font-size: 1.55vw;
+        }
+        @media screen and (max-width: 830px) {
+          font-size: $p-font-size;
+          max-width: 67%;
+        }
+        @media screen and (max-width: 650px) {
+          font-size: 2.5vw;
+        }
+        @media screen and (max-width: 440px) {
+          display: none;
+        }
+      }
+      .line {
+        @extend %line;
+        position: relative;
+        top: 11px;
+        height: 3px;
+      }
+      .ul {
+        margin-top: 50px;
+        .li {
+          @extend %flex;
+          margin-bottom: 13px;
+          .img {
+            border: 1px solid #fe504f;
+            height: 24px;
+            width: 28px;
+            padding-top: 6px;
+            color: $red-color;
+            text-align: center;
+          }
+          .text {
+            font-weight: bold;
+            font-size: $footer-text-font-size;
+            text-transform: uppercase;
+            margin-left: 14px;
+            margin-top: 10px;
+            max-width: 67%;
+            line-height: 13px;
+            @media screen and (max-width: 900px) {
+              font-size: 1.3vw;
+            }
+            @media screen and (max-width: 830px) {
+              font-size: $footer-text-font-size;
+            }
+            @media screen and (max-width: 650px) {
+              font-size: 2vw;
+
+            }
+            @media screen and (max-width: 440px) {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+    .right {
+      display: inline-block;
+      float: left;
+      width: 41.8%;
+      margin-left: 8.2%;
+      @media screen and (max-width: 830px) {
+        display: none;
+      }
+      .h4 {
+        font-weight: bold;
+        font-size: $h4-font-size;
+        text-transform: uppercase;
+        color: $red-color;
+        letter-spacing: -1px;
+      }
+      .line {
+        @extend %line;
+        position: relative;
+        height: 3px;
+        margin-left: 2px;
+        margin-top: 11px;
+      }
+      .p {
+        font-size: $p-font-size;
+        line-height: 20px;
+        margin-top: 20px;
+        letter-spacing: 0;
+        max-width: 87%;
+        @media screen and (max-width: 900px) {
+          font-size: 1.55vw;
+        }
+      }
+      .form {
+        margin-top: 22px;
+        max-width: 85%;
+        @media screen and (max-width: 900px) {
+          font-size: 1.55vw;
+        }
+        .name {
+          margin-top: 14px;
+          border: 1px solid $gray-color;
+          color: $gray-color;
+          background-color: inherit;
+          padding: 13px 0 16px 18px;
+          width: 100%;
+          letter-spacing: 1px;
+        }
+
+        .message {
+          @extend .name;
+          margin-bottom: 40px;
+          padding: 13px 0 161px 18px;
+          letter-spacing: 1px;
+        }
+        .button {
+          @extend %button;
+          height: 38px;
+          width: 130px;
+          float: right;
+          position: relative;
+          right: -20px;
+          font-size: $p-text-font-size;
+          margin-top: 2px;
+          @media screen and (max-width: 900px) {
+            font-size: 1.55vw;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    height: 102px;
+    background-color: $black-color;
+    width: 100%;
+    color: $red-color;
+    position: relative;
+    top: -98px;
+    left: -2px;
+    .wrapper {
+      @extend %wrapper;
+      @extend %flex;
+      justify-content: space-between;
+      @media screen and (max-width: 1350px) {
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      .text {
+        font-weight: bold;
+        font-size: $footer-text-font-size;
+        text-transform: uppercase;
+        color: $white-color;
+        @media screen and (max-width: 830px) {
+          display: none;
+        }
+      }
+      .social_networks {
+        position: relative;
+        left: -54px;
+        top: 1px;
+        .in {
+          color: $red-color;
+          text-decoration: none;
+          padding-right: 16px;
+          padding-left: 11px;
+          border-right: 1px solid #fe504f;
+          @media screen and (max-width: 830px) {
+            padding-right: 6px;
+            padding-left: 1px;
+          }
+          &:first-child {
+            padding-right: 18px;
+            @media screen and (max-width: 830px) {
+              padding-right: 8px;
+            }
+          }
+          &:nth-child(2) {
+            padding-left: 8px;
+            padding-right: 12px;
+            @media screen and (max-width: 830px) {
+              padding-right: 6px;
+              padding-left: 1px;
+            }
+          }
+          &:nth-child(4) {
+            border-right: 0px solid #fe504f;
+            padding-right: 0px;
+          }
+        }
+      }
+    }
+  }
+}
