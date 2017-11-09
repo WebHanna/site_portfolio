@@ -1,0 +1,114 @@
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.header {
+  color: $header-text-color;
+  font-family: Ubuntu-Regular;
+  max-width: 1280px;
+  background-color: #f4f4f4;
+  margin: 0 auto;
+  position: relative;
+  .wrapper {
+    display: block;
+    margin: 0 auto;
+    max-width: 930px;
+    @media screen and (max-width: 980px) {
+      margin: 0 30px;
+    }
+    .logo {
+      padding: 27px 0;
+      display: inline-block;
+      float: left;
+    }
+    .menu_icon {
+      display: none;
+      @media screen and (max-width: 767px) {
+        display: block;
+        float: right;
+        font-size: 26px;
+        padding: 25px 0;
+      }
+    }
+      .menu_width_767px{
+        display: none;
+        position: absolute;
+        bottom: -284px;
+        left: 0;
+        z-index: 3;
+        padding: 34px 0 20px;
+        width: 100%;
+        background-color:rgba(244,244,244,.9);
+        font-family: Ubuntu-Regular;
+        font-size: 18px;
+        .menu_width_767px_item {
+          display: block;
+          padding: 14px 80px;
+          width: 100%;
+          text-decoration: none;
+          color: #515862;
+          &:hover {
+            background-color: #aaaaaa;
+        }
+        }
+      }
+
+    .menu {
+      display: inline-block;
+      float: right;
+      @media screen and (max-width: 767px) {
+       display: none;
+      }
+      .menu_item {
+        display: inline-block;
+        float: left;
+        text-decoration: none;
+        padding: 33px;
+        color: $header-text-color;
+      }
+      .menu_item_active {
+        display: inline-block;
+        float: left;
+        text-decoration: none;
+        padding: 33px 17px 23px 17px;
+        background-color: $header-light-blue-color;
+        color: $header-text-color;
+        border-bottom: 10px solid $header-dark-blue-color;
+        color: $white-color;
+      }
+      .menu_item_blog {
+        display: inline-block;
+        float: left;
+        text-decoration: none;
+        padding: 4px 17px;
+        background-color: $header-orange-color;
+        color: $white-color;
+        border-radius: 5px;
+        margin: 29px 0;
+      }
+    }
+    .search {
+      display: inline-block;
+      float: right;
+      font-size: $menu-search-font-size;
+      padding-left: 90px;
+      @media screen and (max-width: 980px) {
+       display: none;
+      }
+      &_text {
+        display: inline-block;
+        float: left;
+        padding-top: 40px;
+        padding-right: 5px;
+      }
+      &_icon {
+        display: inline-block;
+        float: left;
+        padding-top: 22px;
+      }
+    }
+  }
+}

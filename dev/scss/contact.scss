@@ -1,0 +1,239 @@
+.main {
+  background-color: #f4f4f4;
+  color: #888c91;
+  .b_portfolio {
+    @extend %portfolio_main_text;
+    background-image: url(../images/portfolio.png);
+    background-size: cover;
+    text-align: center;
+    color: $slider-color;
+    line-height: 292px;
+    @media screen and (max-width: 850px) {
+      font-size: 50px;
+      line-height: 218px;
+    }
+    @media screen and (max-width: 790px) {
+      line-height: 200px;
+    }
+    @media screen and (max-width: 530px) {
+      font-size: 40px;
+      line-height: 145px;
+    }
+  }
+  .get {
+    padding-top: 35px;
+    .wrapper {
+      display: block;
+      margin: 0 auto;
+      max-width: 930px;
+      @media screen and (max-width: 980px) {
+        margin: 0 30px;
+      }
+      .get_top {
+        text-align: center;
+        &_main_text {
+          font-size: 50px;
+          text-transform: uppercase;
+          color: $header-dark-blue-color;
+          font-family: bebas-neue;
+          padding-bottom: 25px;
+          @media screen and (max-width: 530px) {
+            font-size: 40px;
+          }
+          @media screen and (max-width: 440px) {
+            font-size: 30px;
+          }
+        }
+        &_text {
+          font-family: Ubuntu-Regular;
+          font-size: 13px;
+          line-height: 18px;
+          padding-bottom: 70px;
+
+        }
+      }
+      .get_bottom {
+        &_left {
+          width: 50%;
+          display: inline-block;
+          float: left;
+          box-sizing: border-box;
+          border-right: 1px solid #e1e1e1;
+          @media screen and (max-width: 980px) {
+            width: 100%;
+            margin-left: 5%;
+          }
+          &_text {
+            font-family: Ubuntu-Regular;
+            font-size: 13px;
+            padding-bottom: 25px;
+            .red_star {
+              color: red;
+            }
+          }
+          &_form {
+            &_text {
+              font-family: Ubuntu-Regular;
+              font-size: 13px;
+              padding-bottom: 5px;
+              text-transform: uppercase;
+              .red_star {
+                color: red;
+              }
+            }
+            &_input {
+              width: 80%;
+              height: 25px;
+              margin-bottom: 25px;
+              padding-left: 8px;
+            }
+          }
+          .code{
+            width: 80%;
+            &_img_left{
+              display: inline-block;
+              float: left;
+              width: 50%;
+            }
+            &_right{
+              display: inline-block;
+              float: left;
+              width: 45%;
+              margin-left: 4%;
+              &_text{
+                color: #6e747b;
+                font-family: Ubuntu-Regular;
+                font-size: 13px;
+                padding-bottom: 8px;
+              }
+              &_input{
+                   margin-bottom: 15px;
+                width: 100%;
+                padding-left: 8px;
+              }
+              &_button{
+                @extend %blue_button;
+                float: right;
+                padding: 0 30px;
+                border-radius: 5px;
+                margin-bottom: 70px;
+                @media screen and (max-width: 575px) {
+                  margin-bottom: 0px;
+                }
+              }
+            }
+          }
+        }
+          &_right {
+            width: 50%;
+            display: inline-block;
+            float: left;
+            box-sizing: border-box;
+            @media screen and (max-width: 980px) {
+              width: 100%;
+            }
+            &_w{
+              width: 80%;
+              float: right;
+              margin-left: 20%;
+              @media screen and (max-width: 980px) {
+                display: block;
+                width: 100%;
+                margin-left: 5%;
+                float: none;
+              }
+              @media screen and (max-width: 769px) {
+                margin-left: 0%;
+              }
+
+            }
+            .get_bottom_right_contact{
+              width: 100%;
+              @media screen and (max-width: 980px) {
+               display: inline-block;
+                float: left;
+                width: 33%;
+              }
+              @media screen and (max-width: 575px) {
+                display: none;
+              }
+
+             .img{
+               display: inline-block;
+               float: left;
+               padding-right: 10px;
+               @media screen and (max-width: 980px) {
+               //width: 15%;
+               box-sizing: border-box;
+             }
+               @media screen and (max-width: 769px) {
+                 margin-left: 41%;
+                 margin-bottom: 8px;
+               }
+             }
+              .text{
+                display: inline-block;
+                float: left;
+                font-family: Ubuntu-Regular;
+                font-size: 13px;
+                width: 50%;
+                line-height: 16px;
+                @media screen and (max-width: 980px) {
+                  width: 79%;
+                }
+                @media screen and (max-width: 769px) {
+                 text-align: center;
+                  width: 100%;
+                }
+                &_blue{
+                  color: $header-dark-blue-color;
+                }
+              }
+            }
+            .map{
+              display: block;
+              width: 86%;
+              float: right;
+              border: 2px solid white;
+              margin:35px 0;
+              @media screen and (max-width: 980px) {
+                display: inline-block;
+                float: left;
+                width:90%;
+                margin: 35px auto;
+                margin-left: 4%;
+              }
+              &_b{
+                width: 100%;
+              }
+            }
+            .social_icon{
+              display: block;
+              width: 100%;
+              float: right;
+              text-align: center;
+
+              &_text{
+                font-family: bebas-neue;
+                font-size: 35px;
+                text-transform: uppercase;
+                color: #515862;
+                padding-bottom: 25px;
+                @media screen and (max-width: 400px) {
+                  font-size: 25px;
+                }
+              }
+              &_b{
+.icon{
+  @media screen and (max-width: 400px) {
+    width: 12%;
+  }
+}
+              }
+            }
+
+          }
+      }
+    }
+  }
+}

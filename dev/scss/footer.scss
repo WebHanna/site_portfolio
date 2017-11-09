@@ -1,0 +1,352 @@
+.footer {
+  background-color: $footer-color;
+  padding: 45px 0 30px 0;
+  font-family: Ubuntu-Regular;
+  font-size: $footer-font-size;
+  @media screen and (max-width: 980px) {
+   font-size: 10px;
+  }
+  @media screen and (max-width: 305px) {
+    padding-top: 0;
+  }
+  .wrapper {
+    display: block;
+    margin: 0 auto;
+    max-width: 930px;
+    @media screen and (max-width: 980px) {
+      margin: 0 29px;
+    }
+    .col_1 {
+      display: inline-block;
+      float: left;
+      width:19%;
+      @media screen and (max-width: 980px) {
+        width: 46%;
+      }
+      @media screen and (max-width: 550px) {
+        width: 96%;
+        text-align: center;
+      }
+        .main_text {
+          font-family: bebas-neue;
+          text-transform: uppercase;
+          font-size: $footer-orange-font-size;
+          color: $footer-text-orange-color;
+          padding-bottom: 13px;
+        }
+      .row_border {
+        border-bottom: 0.5px solid $footer-text-color;
+        padding-bottom: 10px;
+        color: $footer-text-color;
+        .white_square{
+          display: inline-block;
+          float: left;
+          height: 55px;
+          width: 55px;
+          background-color: $white-color;
+          margin-right: 10px;
+        }
+        .text {
+          display: inline-block;
+          float: left;
+          font-size: $footer-font-size;
+          color: $footer-text-color;
+          line-height: 20px;
+          @media screen and (max-width: 550px) {
+            float: none;
+          }
+          .href {
+            color: $footer-text-blue-color;
+            font-weight: bold;
+          }
+        }
+      }
+      .row {
+        color: $footer-text-color;
+        .white_square{
+          display: inline-block;
+          float: left;
+          height: 55px;
+          width: 55px;
+          background-color: $white-color;
+          margin-right: 10px;
+        }
+        .icon{
+          display: inline-block;
+          float: left;
+          margin-right: 10px;
+        }
+        .text {
+          display: inline-block;
+          float: left;
+          font-size: $footer-font-size;
+          color: $footer-text-color;
+          line-height: 20px;
+          @media screen and (max-width: 550px) {
+            float: none;
+          }
+          .href {
+            color: $footer-text-blue-color;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .col_2 {
+      display: inline-block;
+      float: left;
+      width:27%;
+      @media screen and (max-width: 980px) {
+        width: 46%;
+      }
+      @media screen and (max-width: 550px) {
+        width: 96%;
+        text-align: center;
+      }
+      .main_text {
+        font-family: bebas-neue;
+        text-transform: uppercase;
+        font-size: $footer-orange-font-size;
+        color: $footer-text-orange-color;
+        padding-bottom: 13px;
+      }
+      .row_border {
+        border-bottom: 0.5px solid $footer-text-color;
+        padding-bottom: 10px;
+        color: $footer-text-color;
+        .white_square{
+          display: inline-block;
+          float: left;
+          height: 55px;
+          width: 55px;
+          background-color: $white-color;
+          margin-right: 10px;
+        }
+        .text {
+          display: inline-block;
+          float: left;
+          font-size: $footer-font-size;
+          color: $footer-text-color;
+          line-height: 20px;
+          .href {
+            color: $footer-text-blue-color;
+            font-weight: bold;
+          }
+        }
+      }
+      .row {
+        color: $footer-text-color;
+        .white_square{
+          display: inline-block;
+          float: left;
+          height: 55px;
+          width: 55px;
+          background-color: $white-color;
+          margin-right: 10px;
+        }
+        .icon{
+          display: inline-block;
+          float: left;
+          margin-right: 10px;
+        }
+        .text {
+          display: inline-block;
+          float: left;
+          font-size: $footer-font-size;
+          color: $footer-text-color;
+          line-height: 20px;
+          .href {
+            color: $footer-text-blue-color;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .col_3 {
+      display: inline-block;
+      float: left;
+      width: 23%;
+      @media screen and (max-width: 980px) {
+        width: 46%;
+      }
+      @media screen and (max-width: 550px) {
+        width: 96%;
+        text-align: center;
+      }
+      .main_text {
+        font-family: bebas-neue;
+        text-transform: uppercase;
+        font-size: $footer-orange-font-size;
+        color: $footer-text-orange-color;
+        padding-bottom: 13px;
+      }
+      .row_border {
+        border-bottom: 0.5px solid $footer-text-color;
+        padding-bottom: 10px;
+        color: $footer-text-color;
+        .white_square{
+          display: inline-block;
+          float: left;
+          height: 55px;
+          width: 55px;
+          background-color: $white-color;
+          margin-right: 10px;
+
+        }
+        .text {
+          display: inline-block;
+          float: left;
+          font-size: $footer-font-size;
+          color: $footer-text-color;
+          line-height: 20px;
+          @media screen and (max-width: 550px) {
+            float: none;
+          }
+          .href {
+            color: $footer-text-blue-color;
+            font-weight: bold;
+          }
+        }
+      }
+      .row {
+        color: $footer-text-color;
+        .white_square{
+          display: inline-block;
+          float: left;
+          height: 55px;
+          width: 55px;
+          background-color: $white-color;
+          margin-right: 10px;
+        }
+        .icon{
+          display: inline-block;
+          float: left;
+          margin-right: 10px;
+        }
+        .text {
+          display: inline-block;
+          float: left;
+          font-size: $footer-font-size;
+          color: $footer-text-color;
+          line-height: 20px;
+          @media screen and (max-width: 550px) {
+            float: none;
+          }
+          .href {
+            color: $footer-text-blue-color;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .col_4 {
+      display: inline-block;
+      float: left;
+      width: 18%;
+      @media screen and (max-width: 980px) {
+        width: 45%;
+      }
+      @media screen and (max-width: 550px) {
+        width: 96%;
+        text-align: center;
+      }
+      .main_text {
+        font-family: bebas-neue;
+        text-transform: uppercase;
+        font-size: $footer-orange-font-size;
+        color: $footer-text-orange-color;
+        padding-bottom: 13px;
+      }
+      .row_border {
+        border-bottom: 0.5px solid $footer-text-color;
+        padding-bottom: 10px;
+        color: $footer-text-color;
+        .white_square{
+          display: inline-block;
+          float: left;
+          height: 55px;
+          width: 55px;
+          background-color: $white-color;
+          margin-right: 10px;
+        }
+        .text {
+          display: inline-block;
+          float: left;
+          font-size: $footer-font-size;
+          color: $footer-text-color;
+          line-height: 20px;
+          @media screen and (max-width: 550px) {
+            float: none;
+          }
+          .href {
+            color: $footer-text-blue-color;
+            font-weight: bold;
+          }
+        }
+      }
+      .row {
+        color: $footer-text-color;
+        .white_square{
+          display: inline-block;
+          float: left;
+          height: 55px;
+          width: 55px;
+          background-color: $white-color;
+          margin-right: 10px;
+        }
+        .icon{
+          display: inline-block;
+          float: left;
+          margin-right: 10px;
+          @media screen and (max-width: 550px) {
+            float: none;
+          }
+        }
+        .text {
+          display: inline-block;
+          float: left;
+          font-size: $footer-font-size;
+          color: $footer-text-color;
+          line-height: 20px;
+          @media screen and (max-width: 550px) {
+            float: none;
+          }
+          .href {
+            color: $footer-text-blue-color;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .margin_right{
+      margin-right: 4%;
+      @media screen and (max-width: 980px) {
+       margin-top: 40px;
+      }
+    }
+    .form {
+      .email{
+        margin: 13px 0;
+        color: $footer-text-blue-color;
+        font-size: 13px;
+      }
+      .input{
+        width: 97%;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        text-decoration: none;
+        height: 30px;
+        margin-bottom: 15px;
+        padding-left: 7px;
+      }
+      .blue_button{
+        @extend %blue_button;
+        float: right;
+      }
+
+    }
+
+
+  }
+}

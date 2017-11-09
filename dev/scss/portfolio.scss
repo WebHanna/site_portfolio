@@ -1,0 +1,320 @@
+.main {
+  background-color: #f4f4f4;
+  .b_portfolio {
+    @extend %portfolio_main_text;
+    background-image: url(../images/portfolio.png);
+    background-size: cover;
+    text-align: center;
+    color: $slider-color;
+    line-height: 292px;
+    @media screen and (max-width: 850px) {
+      font-size: 50px;
+      line-height: 218px;
+    }
+    @media screen and (max-width: 790px) {
+      line-height: 200px;
+    }
+    @media screen and (max-width: 530px) {
+      font-size: 40px;
+      line-height: 145px;
+    }
+  }
+  .taste {
+    padding-top: 40px;
+    @media screen and (max-width: 980px) {
+      margin: 0 30px;
+    }
+    &_main_text {
+      @extend %portfolio_main_text;
+      color: $footer-text-blue-color;
+      text-align: center;
+      @media screen and (max-width: 850px) {
+        font-size: 50px;
+      }
+      @media screen and (max-width: 790px) {
+
+      }
+      @media screen and (max-width: 530px) {
+        font-size: 40px;
+      }
+      @media screen and (max-width: 440px) {
+        font-size: 30px;
+      }
+
+    }
+    .nav {
+      border-top: 1px solid #2190c1;
+      border-bottom: 1px solid #2190c1;
+      @media screen and (max-width: 980px) {
+        display: none;
+      }
+      &_wrapper {
+        max-width: 1020px;
+        margin: 0 auto;
+        border-left: 1px solid #2190c1;
+        border-right: 1px solid #2190c1;
+        @media screen and (max-width: 980px) {
+          border: none;
+          margin: 0 30px;
+        }
+        .menu {
+          padding: 0 15px;
+          display: inline-block;
+          float: left;
+          @media screen and (max-width: 980px) {
+            padding: 0;
+            width: 80%;
+            margin-left: 10%;
+            padding-left: 17px;
+          }
+
+          &_item {
+            display: inline-block;
+            float: left;
+            font-size: 16px;
+            font-family: UbuntuCondensed-Regular;
+            text-transform: uppercase;
+            margin: 18px 0;
+            border-right: 1px solid black;
+            padding: 0 30px;
+            @media screen and (max-width: 980px) {
+              padding: 0;
+              //width: 20%;
+              box-sizing: border-box;
+              border: none;
+              padding-right: 40px;
+            }
+          }
+        }
+        .category {
+          display: inline-block;
+          float: right;
+          @media screen and (max-width: 980px) {
+            display: none;
+          }
+          &_menu {
+            font-size: 20px;
+            display: inline-block;
+            float: right;
+            .category_menu_b {
+              display: block;
+              &_item {
+                display: none;
+                background-color: #f98561;
+                color: #f9f5d2;
+                font-size: 13px;
+                font-family: Ubuntu-Medium;
+                border-top: 1px solid #f9f5d2;
+                padding: 18px 15px;
+              }
+              &_item_1 {
+                padding: 18px 15px;
+                font-family: UbuntuCondensed-Regular;
+                text-transform: uppercase;
+                color: $white-color;
+                background-color: #2190c1;
+                .angle {
+                  padding-left: 5px;
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+          .b_menu {
+            display: inline-block;
+            float: right;
+            padding: 18px 12px 14px;
+            font-size: 22px;
+            color: #aaaaaa;
+          }
+          .grid3 {
+            display: inline-block;
+            float: right;
+            padding: 21px 15px 15px 0;
+            font-size: 19px;
+            color: #2190c1;
+          }
+        }
+      }
+    }
+  }
+  .gallery {
+    padding-top: 30px;
+    .wrapper {
+      display: block;
+      margin: 0 auto;
+      max-width: 930px;
+      @media screen and (max-width: 980px) {
+       margin: 0 30px;
+      }
+      .img_left {
+        display: inline-block;
+        float: left;
+        width: 32%;
+        padding-bottom: 5px;
+      }
+      .img_center {
+        display: inline-block;
+        width: 32%;
+        margin: 0 1.5%;
+        padding-bottom: 5px;
+      }
+      .img_right {
+        display: inline-block;
+        float: right;
+        width: 32%;
+        padding-bottom: 5px;
+      }
+
+      .page {
+        display: flex;
+        padding: 56px 0;
+        justify-content: center;
+        @media screen and (max-width: 580px) {
+          padding: 36px 30px;
+        }
+        &_number {
+          display: flex;
+          font-size: 20px;
+          font-family: Arial;
+          color: white;
+          background-color: #aaaaaa;
+          padding: 7px;
+          margin: 0 5px;
+          border-radius: 5px;
+          @media screen and (max-width: 580px) {
+            font-size: 14px;
+          }
+        }
+        &_text {
+          display: inline-block;
+          float: left;
+          background-color: #2190c1;
+          padding: 9px 14px;
+          color: #bfecfd;
+          font-size: 15px;
+          font-family: UbuntuCondensed-Regular;
+          @media screen and (max-width: 580px) {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+      .clients{
+        border-top: 1px solid #2190c1;
+        border-bottom: 1px solid #2190c1;
+        padding-bottom: 30px;
+        padding-top: 25px;
+        font-size: 27px;
+        font-family: bebas-neue;
+        color: #2190c1;
+        text-align: center;
+        .wrapper {
+          display: block;
+          margin: 0 auto;
+          max-width: 930px;
+          @media screen and (max-width: 980px) {
+            margin: 0 30px;
+          }
+          .clients_text{
+        font-size: 27px;
+        text-align: center;
+      }
+          .clients_logo{
+            padding-top: 25px;
+
+        &_item{
+          padding-right: 4%;
+          width: 0 5.5%;
+          @media screen and (max-width: 767px) {
+            width: 16%;
+            padding: 0 5%;
+          }
+          @media screen and (max-width: 600px) {
+            width: 20%;
+            padding: 0 5%;
+          }
+        }
+      }
+        }
+    }
+  .testimonials{
+    font-family: bebas-neue;
+    text-align: center;
+    @media screen and (max-width: 980px) {
+      margin: 0 30px;
+    }
+    .offer_bottom{
+      text-align: center;
+      .text_blue{
+        padding: 30px 0;
+        text-transform: uppercase;
+        font-size: 27px;
+        font-family: bebas-neue;
+        color: $header-dark-blue-color;
+        @media screen and (max-width: 340px) {
+          font-size: 20px;
+        }
+      }
+      .text_black{
+        font-size: 25px;
+        font-family: BreeSerif-Regular;
+        @media screen and (max-width: 850px) {
+          font-size: 22px;
+        }
+        @media screen and (max-width: 644px) {
+          font-size: 20px;
+        }
+        @media screen and (max-width: 530px) {
+          font-size: 18px;
+        }
+
+      }
+      .text_orange{
+        padding-top: 55px;
+        padding-bottom: 25px;
+        font-size: 14px;
+        font-family: Ubuntu-Regular;
+        color: #aaaaaa;
+        .bold{
+          font-weight: bold;
+          color: #7d7d7d;
+        }
+      }
+      .block_col{
+        display: block;
+        margin: 0 auto;
+        width: 22%;
+        @media screen and (max-width: 850px) {
+          width: 40%;
+        }
+        @media screen and (max-width: 644px) {
+          width:50%;
+        }
+        .col{
+          width: 31%;
+          display: inline-block;
+          float: left;
+          margin: 0 1%;
+          .icon {
+            padding-bottom: 15px;
+            .img {
+              max-width: 100%;
+            }
+          }
+          .row_orange{
+            height: 8px;
+            width: 100%;
+            background-color: #f98561;
+          }
+          .row_grey{
+            height: 8px;
+            width: 100%;
+            background-color: #c1c1c1;
+          }
+        }
+      }
+    }
+  }
+}
