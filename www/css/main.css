@@ -116,7 +116,7 @@
         background-color: #f98561;
         color: #ffffff;
         border-radius: 5px;
-        margin: 29px 0; }
+        margin: 29px 8px; }
     .header .wrapper .search {
       display: inline-block;
       float: right;
@@ -430,6 +430,9 @@
       padding-left: 7px; }
     .footer .wrapper .form .blue_button {
       float: right; }
+
+a {
+  text-decoration: none; }
 
 .main {
   margin: 0 auto;
@@ -1585,7 +1588,8 @@
         @media screen and (max-width: 980px) {
           .main .get .wrapper .get_bottom_left {
             width: 100%;
-            margin-left: 5%; } }
+            margin-left: 5%;
+            border-right: 0px solid #e1e1e1; } }
         .main .get .wrapper .get_bottom_left_text {
           font-family: Ubuntu-Regular;
           font-size: 13px;
